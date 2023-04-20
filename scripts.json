@@ -45,6 +45,7 @@
               "author": "wizard.hx",
               "version": 1.0,
               "isZip": false,
+              "isLocal": true,
               "contents":[
                 {
                   "intendedLocation": "data/charts/",

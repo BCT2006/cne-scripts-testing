@@ -112,9 +112,18 @@ function modSelect()
     trace(scriptCode);
     for(i in scriptCode)
     {
+        var code = '';
         trace('mods/'+curMod+'/'+i.intendedLocation+i.fileName);
         trace(i.source);
-        var code = Http.requestUrl(i.source);
+        if(!i.isLocal)
+            code = Http.requestUrl(i.source);
+        else
+        {
+            code = getGitFile('BCT2006','cne-scripts-testing','scripts/worldsEasiestHitsound.hx');
+            code = Http.requestUrl(code.download_url);
+        }
+            
+        trace(code);
         if(!FileSystem.exists('mods/'+curMod+'/'+i.intendedLocation))
         {
             FileSystem.createDirectory('mods/'+curMod+'/'+i.intendedLocation);
