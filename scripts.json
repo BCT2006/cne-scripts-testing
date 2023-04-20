@@ -1,44 +1,57 @@
 {
   "mods": [
-	{
-      "name": "Alt Animation Support",
- 	  "author": "Levka4",
-      "version": 1.0,
-      "isZip": false,
-      "contents":[
-        {
-          "source": "https://cdn.discordapp.com/attachments/1090665440218468433/1090666248104329226/altAnim.hx",
-          "intendedLocation": "data/charts/",
-          "fileName": "altAnim.hx"
-        }
-      ]
-	  
-    },
-	{
-      "name": "Psych Event Loader",
- 	  "author": "Frakits",
-      "version": 1.0,
-      "isZip": false,
-       "contents":[
-        {
-          "source": "https://cdn.discordapp.com/attachments/1084483326083092500/1084483326372491385/eventLoader.hx",
-          "intendedLocation": "data/charts/",
-          "fileName": "eventLoader.hx"
-        }
-      ]
-    },
-	{
-      "name": "Cam move script",
-	  "author": "Stilic and raltyro",
-      "version": 1.0,
-      "isZip": false,
-      "contents":[
-        {
-          "intendedLocation": "data/charts/",
-          "source": "https://cdn.discordapp.com/attachments/1079655469955686462/1079655470610002000/camMove.hx",
-    	  "fileName": "camMove.hx"
-        }
-      ]
-    }
+            {
+              "name": "Alt Animation Support",
+              "author": "Levka4",
+              "version": 1.0,
+              "isZip": false,
+              "contents":[
+                {
+                  "source": "https://cdn.discordapp.com/attachments/1090665440218468433/1090666248104329226/altAnim.hx",
+                  "intendedLocation": "data/charts/",
+                  "fileName": "altAnim.hx"
+                }
+              ]
+              
+            },
+            {
+              "name": "Psych Event Loader",
+              "author": "Frakits",
+              "version": 1.0,
+              "isZip": false,
+              "contents":[
+                {
+                  "source": "https://cdn.discordapp.com/attachments/1084483326083092500/1084483326372491385/eventLoader.hx",
+                  "intendedLocation": "data/charts/",
+                  "fileName": "eventLoader.hx"
+                }
+              ]
+            },
+            {
+              "name": "Cam move script",
+              "author": "Stilic and raltyro",
+              "version": 1.0,
+              "isZip": false,
+              "contents":[
+                {
+                  "intendedLocation": "data/charts/",
+                  "source": "https://cdn.discordapp.com/attachments/1079655469955686462/1079655470610002000/camMove.hx",
+                  "fileName": "camMove.hx"
+                }
+              ]
+            },
+            {
+              "name": "Worlds Easiest Hitsound",
+              "author": "wizard.hx",
+              "version": 1.0,
+              "isZip": false,
+              "contents":[
+                {
+                  "intendedLocation": "data/charts/",
+                  "source": "scripts/worldsEasiestHitsound.hx",
+                  "fileName": "worldsEasiestHitsound.hx"
+                }
+              ]
+            }
   ]   
 }

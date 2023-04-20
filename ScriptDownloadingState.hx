@@ -4,7 +4,6 @@ import flixel.addons.display.FlxBackdrop;
 import funkin.menus.ui.Alphabet;
 import sys.FileSystem;
 import sys.io.File;
-import haxe.crypto.Base64;
 
 
 var bg:FlxBackdrop;
@@ -26,9 +25,6 @@ var helpTxt:FlxText;
 function create()
 {
     var rawgitData = getGitFile('BCT2006','cne-scripts-testing','scripts.json'); //dont change this link!
-   // trace(rawgitData.download_url);
-    //var gitData = Json.parse(rawgitData);
-    
     var rawData = Http.requestUrl(rawgitData.download_url);
     trace(rawData);
     data = Json.parse(rawData);
