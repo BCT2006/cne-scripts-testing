@@ -51,6 +51,11 @@
                   "intendedLocation": "data/charts/",
                   "source": "scripts/worldsEasiestHitsound.hx",
                   "fileName": "worldsEasiestHitsound.hx"
+                },
+                {
+                  "intendedLocation": "data/sounds/",
+                  "source": "scripts/hitsound.ogg",
+                  "fileName": "hitsound.ogg"
                 }
               ]
             }

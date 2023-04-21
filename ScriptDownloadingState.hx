@@ -116,7 +116,7 @@ function modSelect()
         var code = '';
         trace('mods/'+curMod+'/'+i.intendedLocation+i.fileName);
 
-        if(i.isLocal != 'true')
+        if(data.mods[curItemSelected].isLocal != 'true')
             code = Http.requestUrl(i.source);
         else
         {
