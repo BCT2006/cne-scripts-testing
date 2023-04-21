@@ -53,7 +53,7 @@
                   "fileName": "worldsEasiestHitsound.hx"
                 },
                 {
-                  "intendedLocation": "data/sounds/",
+                  "intendedLocation": "sounds/",
                   "source": "scripts/hitsound.ogg",
                   "fileName": "hitsound.ogg"
                 }
